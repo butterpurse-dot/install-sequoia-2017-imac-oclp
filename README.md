@@ -1,4 +1,4 @@
-# imac-2017-macos-sequoia-opencore
+# Install macOS Sequoia on a 2017 iMac (OCLP)
 
 Install macOS Sequoia 15 on an unsupported 2017 iMac (iMac18,1 / 18,2 / 18,3) with [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) (OCLP). Covers the errors people hit: "macOS Sequoia is not compatible with this Mac", "can't be installed on this computer", and a startup error or 🚫 sign when booting the installer.
 
@@ -17,8 +17,8 @@ Tested on iMac18,2. iMac18,1 and iMac18,3 should behave the same, but haven't be
 ## Install
 
 ```bash
-git clone https://github.com/butterpurse-dot/imac-2017-macos-sequoia-opencore.git
-cd imac-2017-macos-sequoia-opencore
+git clone https://github.com/butterpurse-dot/install-sequoia-2017-imac-oclp.git
+cd install-sequoia-2017-imac-oclp
 bash scripts/diag-efi.sh                     # lists disks by Media Name
 export STICK_NAME="…" BOOT_DISK_NAME="…"
 ```
